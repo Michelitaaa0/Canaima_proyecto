@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Gloryse";
+    src: url("../fonts/Gloryse.ttf");
+}
+
+@font-face {
+    font-family: "Boska";
+    src: url("../fonts/Boska.ttf");
+}
+
+:root {
+    --crema: #FFFEE5;
+    --azul: #789EE6;
+    --verde: #249B19;
+    --naranja: #E75704;
+    --marron: #442B00;
+    --rojo: #C22929;
+
+    --titulos: "Gloryse";
+    --texto: "Boska";
+}

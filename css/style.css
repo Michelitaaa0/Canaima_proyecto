@@ -215,3 +215,53 @@ header {
     cursor: pointer;
     color: white;
 }
+/* ===========================
+   SLIDESHOW
+=========================== */
+
+.slideshow-container {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+    transform: translateY(-50%);
+}
+
+.next { right: 0; }
+
+.dots-container {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 4px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.active {
+    background-color: var(--naranja);
+}

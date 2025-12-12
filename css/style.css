@@ -94,3 +94,124 @@ header {
     color: var(--marron);
     cursor: pointer;
 }
+/* HERO TEXT */
+
+.hero-text {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+.hero-text h1 {
+    font-size: 6rem; /* antes 4rem seguramente */
+    font-weight: 700;
+    color: #C22929; /* rojo de tu paleta para contraste */
+   
+}
+
+.hero-text p {
+    font-size: 2rem; 
+    margin-top: 1rem;
+    color: #442B00; 
+
+}
+/* ===========================
+   SECCIONES
+=========================== */
+
+.section {
+    padding: 5em 10%;
+}
+
+.section h2 {
+    font-family: var(--titulos);
+    font-size: 3rem;
+    margin-bottom: 1em;
+    color: var(--rojo);
+    .section h2 {
+    text-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+}
+}
+
+.intro-text {
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+/* ===========================
+   LUGARES IMPRESCINDIBLES
+=========================== */
+
+.lugares-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+.lugares-grid figure {
+    width: 23%;
+    cursor: pointer;
+}
+
+.lugares-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.lugares-grid figcaption {
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: var(--titulos);
+    font-size: 1.4rem;
+    color: var(--marron);
+}
+
+/* ===========================
+   MODAL DE LUGARES
+=========================== */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.95);
+    z-index: 5000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.modal figure {
+    width: 80%;
+    max-width: 900px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1em;
+    text-align: center;
+}
+
+.modal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.modal figcaption {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    color: var(--marron);
+}
+
+.modal i {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 2.2rem;
+    cursor: pointer;
+    color: white;
+}

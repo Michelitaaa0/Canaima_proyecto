@@ -265,3 +265,66 @@ header {
 .active {
     background-color: var(--naranja);
 }
+/* ===========================
+   DESCARGAR APP
+=========================== */
+
+.btn-app {
+    background-color: var(--naranja);
+    padding: 1em 2em;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer {
+    background-color: var(--marron);
+    color: white;
+    padding: 3em;
+    text-align: center;
+}
+/* ===========================
+   EXCURSIONES
+=========================== */
+
+.excursiones-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.excursion-card {
+    width: 30%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 1em;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.excursion-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.excursion-card h3 {
+    font-family: var(--titulos);
+    font-size: 1.8rem;
+    margin-top: 0.5em;
+    color: var(--marron);
+}
+
+.excursion-card p {
+    font-size: 1rem;
+    margin-top: 0.3em;
+}

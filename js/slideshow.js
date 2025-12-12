@@ -1,6 +1,3 @@
-/* ===========================
-   SLIDESHOW AUTOMÁTICO
-=========================== */
 
 let slideIndex = 1;
 let autoSlide;

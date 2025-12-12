@@ -10,9 +10,9 @@ function closeMenu() {
     document.querySelector(".menu-items").style.left = "-100%";
 }
 
-/* ===========================
-   OPACIDAD DEL MENÚ AL HACER SCROLL
-=========================== */
+
+   //OPACIDAD DEL MENÚ AL HACER SCROLL//
+
 
 window.onscroll = function () {
     let scroll = window.scrollY;

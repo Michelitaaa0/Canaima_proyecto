@@ -103,9 +103,9 @@ header {
 }
 
 .hero-text h1 {
-    font-size: 6rem; /* antes 4rem seguramente */
+    font-size: 6rem; 
     font-weight: 700;
-    color: #C22929; /* rojo de tu paleta para contraste */
+    color: #C22929; 
    
 }
 
